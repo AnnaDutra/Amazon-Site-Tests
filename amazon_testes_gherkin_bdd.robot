@@ -4,10 +4,6 @@ Resource         amazon_resources.robot
 Test Setup       Abrir o navegador
 Test Teardown    Fechar o navegador
 
-# key word estao na cor rosa
-# Suite Setup        #para fazer algo antes da suite inteira
-# Suite Teardown     #para fazer algo antes da suite inteira
-
 *** Test Cases ***
 caso de Teste 01 - Acesso ao menu "Eletrônicos"
     [Documentation]  Esse teste verifica o menu eletrônicos do site da Amazon.com.br
