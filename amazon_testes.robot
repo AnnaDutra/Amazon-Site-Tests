@@ -4,9 +4,6 @@ Resource         amazon_resources.robot
 Test Setup       Abrir o navegador
 Test Teardown    Fechar o navegador
 
-# key word estao na cor rosa
-# Suite Setup        #para fazer algo antes da suite inteira
-# Suite Teardown     #para fazer algo antes da suite inteira
 
 *** Test Cases ***
 caso de Teste 01 - Acesso ao menu "Eletrônicos"
@@ -33,7 +30,6 @@ Caso de Teste 03 - Adicionar Produto no Carrinho
     [Documentation]    Esse teste verifica a adição de um produto no carrinho de compras
     [Tags]             adicionar_carrinho
 
-    
     Acessar a home page do site Amazon.com.br
     Digitar o nome de produto "Xbox Series S" no campo de pesquisa
     Clicar no botão de pesquisa
